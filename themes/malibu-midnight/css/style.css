@@ -56,7 +56,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 1em 0 1em 1em;
 }
 
 .title{
@@ -75,6 +75,9 @@ body {
     }
     .title {
         min-width: 50%;
+        /* Är detta lagligt? */
+        font-size: 4vw;
+        line-height: 2.5em;
     }
     .logo {
         max-width: 30%;
@@ -83,6 +86,8 @@ body {
 
 .title * {
     color: white;
+    text-underline-offset: .5em;
+    text-decoration-thickness: .25em;
 }
 
 .title p {
@@ -94,7 +99,9 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-top: 3px dashed #f5f5f580;
 }
 
 .footer a {
@@ -110,7 +117,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: #222;
 }
 
 p, td, th, li, dd {
