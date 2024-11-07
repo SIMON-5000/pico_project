@@ -122,7 +122,8 @@ p, td, th, li, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.6em;
+    margin-top: .5em;
+    margin-bottom: .25em;
     font-weight: bold;
 }
 

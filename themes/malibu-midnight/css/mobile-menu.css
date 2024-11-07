@@ -1,3 +1,10 @@
+
+:root {
+    --night-blue: #0e2d70;
+    --dusk-orange: #F56217;
+    --sun-yellow: #f1ae30;
+}
+
 .slide {
     overflow-y: hidden !important;
     transition: height 0.5s ease-in !important;
