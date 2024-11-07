@@ -30,6 +30,10 @@ body {
 
 .main {
     flex: 1 0 auto;
+    margin: 0 auto;
+    background-color: #ffffff80;
+    padding: 1rem;
+    border-radius: .5rem;
 }
 
 .header, .footer {
