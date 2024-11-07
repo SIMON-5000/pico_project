@@ -107,6 +107,8 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    /* increase readability */
+    max-width: 60em;
 }
 
 h1, h2, h3, h4, h5, h6 {
