@@ -14,8 +14,15 @@
     padding: 0 1em;
 }
 
+/* #0e2d70,#F56217, #f1ae30 */
+
 .nav a, .nav-toggle {
     color: #333;
+    /* Make links visible */
+    background-color: #f5f5f5;
+    padding: .175rem .25rem;
+    border-radius: .25rem;
+    text-decoration: none;
 }
 
 .nav-toggle {
