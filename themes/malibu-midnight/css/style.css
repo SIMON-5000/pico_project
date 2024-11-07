@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 
+:root {
+    --night-blue: #0e2d70;
+    --dusk-orange: #F56217;
+    --sun-yellow: #f1ae30;
+}
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -24,7 +30,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#0e2d70,#F56217, #f1ae30);
+    background: linear-gradient(var(--night-blue),var(--dusk-orange), var(--sun-yellow));
     background-attachment: fixed;
 }
 
