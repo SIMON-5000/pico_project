@@ -41,6 +41,8 @@ body {
     background-color: #ffffff80;
     padding: 1rem;
     border-radius: .5rem;
+    width: 62rem;
+    max-width: 100% ;
 }
 
 .header, .footer {
