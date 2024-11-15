@@ -1,0 +1,24 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "stylelint \"**/*.scss\"",
+    "style": "sass playful/scss/style.scss playful/css/style.css --no-source-map",
+    "style-min": "sass playful/scss/style.scss playful/css/style.min.css --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.81.0",
+    "stylelint": "^16.10.0",
+    "stylelint-config-sass-guidelines": "^12.1.0"
+  }
+}
