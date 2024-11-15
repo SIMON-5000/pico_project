@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+.header {
+  background-color: $main-color;
+  text-align: center;
+  h1 {
+    font-family: EBGaramond;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #fff;
+    border-bottom: #fff solid 3px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 1em 1rem;
+  }
+  h1::after {
+    font-family: "Noto Music", sans-serif;
+    content: '\1D11E';
+    /**
+    * Unicode Name	Musical Symbol G Clef
+    * Unicode Number	U+1D11E
+    * CSS Code	\1D11E
+    */
+
+    font-size: calc(100% / 3);
+    // This (kind of) makes it possible to change the h1 size, and this construction would follow.
+    // Not perfect, but a fun experiment non the less!
+    background: $main-color;
+    position: absolute;
+    transform: translate(-9em, 3.5em);
+    padding: .5em 1em;
+  }
+  .logo img {
+      max-width: 100px;
+  }
+}

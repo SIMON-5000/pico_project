@@ -9,7 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
       "lint": "stylelint \"**/*.scss\"",
     "style": "sass partitur/scss/style.scss partitur/css/style.css --no-source-map",
-    "style-min": "sass partitur/scss/style.scss partitur/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass partitur/scss/style.scss partitur/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass partitur/scss/style.scss partitur/css/style.css --no-source-map --watch",
+    "watch-min": "sass partitur/scss/style.scss partitur/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",

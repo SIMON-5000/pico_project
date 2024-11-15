@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 62rem;
+  max-width: 90%;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+}
