@@ -8,8 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
       "lint": "stylelint \"**/*.scss\"",
-    "style": "sass playful/scss/style.scss playful/css/style.css --no-source-map",
-    "style-min": "sass playful/scss/style.scss playful/css/style.min.css --no-source-map --style compressed"
+    "style": "sass partitur/scss/style.scss partitur/css/style.css --no-source-map",
+    "style-min": "sass partitur/scss/style.scss partitur/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
