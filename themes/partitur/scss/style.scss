@@ -8,6 +8,7 @@
 // Theme specific
 @use 'variables' as vars;
 @use 'header';
+@use 'typography';
 
 // FA
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -15,24 +16,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-
-
-// Imports Noto Music display to get acces to the note glyphs
-@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
-
-// Local fonts:
-@font-face {
-  font-family: 'EBGaramond';
-  font-weight: 400;
-  font-style: normal;
-  src: url('../../shared/fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'EBGaramond';
-  font-weight: 400;
-  font-style: italic;
-  src: url('../../shared/fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
-}
 
 body {
   background-color: vars.$main-color;

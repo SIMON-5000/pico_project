@@ -3,6 +3,7 @@
 .header {
   background-color: $main-color;
   text-align: center;
+
   h1 {
     font-family: EBGaramond;
     font-weight: 100;
@@ -13,8 +14,9 @@
     margin: 0 auto;
     padding: 0 1em 1rem;
   }
+
   h1::after {
-    font-family: "Noto Music", sans-serif;
+    font-family: 'Noto Music', sans-serif;
     content: '\1D11E';
     /**
     * Unicode Name	Musical Symbol G Clef
@@ -28,9 +30,11 @@
     background: $main-color;
     position: absolute;
     transform: translate(-9em, 3.5em);
-    padding: .5em 1em;
+    padding: 0.5em 1em;
   }
+
   .logo img {
-      max-width: 100px;
+    max-width: 100px;
   }
+
 }

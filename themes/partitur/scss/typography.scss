@@ -1,0 +1,45 @@
+// Imports Noto Music display to get acces to the note glyphs, inter for some headers
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Music&display=swap');
+
+// Local fonts:
+@font-face {
+  font-family: 'EBGaramond';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../../shared/fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'EBGaramond';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../../shared/fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+html {
+  font-size: 100%;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 0.98rem;
+  margin-bottom: 1.96rem;
+
+  a {
+    color: #000;
+    text-decoration: underline 2px;
+  }
+
+  a:hover {
+    color: unset;
+    text-decoration: underline 3px;
+  }
+
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  // margin-bottom: 0.5em;
+}
