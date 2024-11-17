@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: .5rem;
+  border-top: 3px solid $light-color;
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .social {
+    font-size: 2rem;
+  }
+}
