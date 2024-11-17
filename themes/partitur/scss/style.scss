@@ -9,6 +9,7 @@
 @use 'variables' as vars;
 @use 'header';
 @use 'typography';
+@use 'main';
 
 // FA
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -22,7 +23,10 @@ body {
   color: vars.$light-color;
 }
 
-a {
-  color: vars.$light-color;
-  text-decoration: none;
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
 }
