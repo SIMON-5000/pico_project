@@ -10,15 +10,22 @@ Description: Angående tekniker
 [6]: https://html.spec.whatwg.org/ "HTML"
 [7]: https://sass-lang.com/ "SASS"
 
-## Följande tekniker används:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" class="tech-logo" alt="Markdown" title="Markdown logo">
+<img src="https://sass-lang.com/assets/img/logos/logo.svg" class="tech-logo" alt="Sass" title="Sass logo">
+<img src="https://avatars.githubusercontent.com/u/7042563?v=4" class="tech-logo" alt="Pico" title="Pico logo">
+<!-- ![Pico](https://avatars.githubusercontent.com/u/7042563?v=4 "Pico logo") -->
+
+## Tekniker som används:
+
+### Denna sida är främst skapad med Pico, Markdown och Sass!
 
 
-### Denna sida är skapad med Pico!
-[Pico][1] är ett så kallat _flat file CMS_. Det innebär att innehållet är strukturerat i mappar och filer istället för en databas.
+[Pico][1] är ett så kallat _flat file CMS_, vilket innebär att innehållet organiseras i mappar och filer istället för en databas.
 
-Systemet är mestadels skrivet i [PHP][2], men det behöver vi knappt använda, istället kan man skapa teman med [Twig][3]. Twig siktar på att vara mer lättläst och enklare att arbeta med än vanlig PHP, när vi har skrivit vår templatekod omvandlar Twig den till vanlig PHP åt oss. 
+Systemet är mestadels skrivet i [PHP][2], men det behöver vi knappt använda. Istället skapar vi teman med [Twig][3]. Twig siktar på att vara mer lättläst och enklare att arbeta med än vanlig PHP, när vi har skrivit vår templatekod omvandlar Twig den till PHP.
 
-Sidorna med innehåll skriver vi i [Markdown][4], och kanske smyger sig lite [HTML][6] in när det behövs. Sen strösslar vi en nypa [SASS][7] över så det ser ut som vi vill att det ska!
+Innehållet på sidorna skriver vi i [Markdown][4], och kanske smyger sig lite [HTML][6] in när det behövs. Sen strösslar vi en nypa [Sass][7] över så det ser ut som vi vill att det ska!
 
 * [Pico CMS] [1]
 * [PHP] [2]
@@ -26,4 +33,4 @@ Sidorna med innehåll skriver vi i [Markdown][4], och kanske smyger sig lite [HT
 * [Markdown] [4]
 * [YAML] [5]
 * [HTML] [6]
-* [SASS] [7]
+* [Sass] [7]
