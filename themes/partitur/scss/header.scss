@@ -33,6 +33,10 @@
     padding: 0.5em 1em;
   }
 
+  .title a:hover {
+    text-decoration: none;
+  }
+
   a {
     color: $light-color;
     text-decoration: none;
