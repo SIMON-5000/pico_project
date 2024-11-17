@@ -12,6 +12,7 @@
 @use 'main';
 @use 'footer';
 @use 'about';
+@use 'landing';
 
 // FA
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -25,10 +26,14 @@ body {
   color: vars.$light-color;
 }
 
-ul {
+// Unreasonable and possibly stupid way of doing this.
+// Trying to use Markdown, so I added a div with the row class after a list in about.
+// Way less readable, but it's fun to test stuff and experiment at this stage.
+nav ul, ul:has(+ .row) {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 0;
   list-style: none;
+  flex-wrap: wrap;
 }

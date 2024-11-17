@@ -1,0 +1,33 @@
+@use 'variables' as *;
+// @use 'typography' as *;
+
+.preludium{
+  position: absolute;
+  background-color: $main-color;
+  color: $light-color;
+  left: 0;
+  top: 9rem;
+  width: 100%;
+  height: calc(100% - 9rem);
+  text-align: center;
+
+  h2 {
+    font-family: 'EBGaramond';
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 5rem;
+  }
+
+  p {
+    margin-top: 2.5rem;
+  }
+
+  span {
+    margin: auto auto 2rem;
+  }
+}
+
+#start:target {
+  display: none;
+}

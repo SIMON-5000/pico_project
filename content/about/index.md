@@ -34,3 +34,9 @@ Innehållet på sidorna skriver vi i [Markdown][4], och kanske smyger sig lite [
 * [YAML] [5]
 * [HTML] [6]
 * [Sass] [7]
+
+<div class="row"></div>
+<!-- Unreasonable and possibly stupid way of doing this.
+Trying to use Markdown, so I added a div with the row class after a list.
+Way less readable, but it's fun to test stuff and experiment at this stage.
+Gets it's style in style.scss -->
