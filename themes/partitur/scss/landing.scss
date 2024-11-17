@@ -1,7 +1,7 @@
 @use 'variables' as *;
 // @use 'typography' as *;
 
-.preludium{
+.preludium {
   position: absolute;
   background-color: $main-color;
   color: $light-color;
@@ -28,6 +28,6 @@
   }
 }
 
-#start:target {
+.preludium:target {
   display: none;
 }

@@ -29,7 +29,8 @@ body {
 // Unreasonable and possibly stupid way of doing this.
 // Trying to use Markdown, so I added a div with the row class after a list in about.
 // Way less readable, but it's fun to test stuff and experiment at this stage.
-nav ul, ul:has(+ .row) {
+nav ul,
+ul:has(+ .row) {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
