@@ -5,6 +5,10 @@
 
     <main class="main" role="main">
         <h2>Nytt template</h2>
+        {% for tech in meta.techs %}
+            <div class="box {{tech.class }}">
+                <h3>{{ tech.name }}</h3>
+        {% endfor %}
     </main>
     
     {% include 'incl/footer.twig' %}
