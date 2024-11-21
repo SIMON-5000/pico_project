@@ -4,6 +4,13 @@
     {% include 'incl/nav.twig' %}
 
     <main class="main" role="main">
+        <aside class="tech-menu">
+            <nav>
+            {% for page in pages("technology") %}
+                <a href="{{ page.url }}" class="tech-menu-item">{{ page.title }}</a>
+            {% endfor %}
+            </nav>
+        </aside>
         {{ content }}
     </main>
     
