@@ -8,11 +8,12 @@
     font-family: EBGaramond;
     font-weight: 100;
     font-size: 3rem;
+    letter-spacing: 0.1rem;
     color: #fff;
     border-bottom: #fff solid 3px;
     min-width: 50%;
     width: fit-content;
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: 0 1em 1rem;
   }
 
@@ -44,7 +45,12 @@
   }  
 
   .logo img {
-    max-width: 100px;
+    display: none;
+    // max-width: 100px;
+  }
+
+  .nav {
+    margin: 2rem auto;
   }
 
 }

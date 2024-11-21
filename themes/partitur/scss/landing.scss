@@ -26,6 +26,15 @@
   span {
     margin: auto auto 2rem;
   }
+
+  .close-info {
+    // font-family: 'inter', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
 
 .preludium:target {

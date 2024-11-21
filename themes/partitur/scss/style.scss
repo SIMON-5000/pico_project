@@ -13,6 +13,7 @@
 @use 'footer';
 @use 'about';
 @use 'landing';
+@use 'mobile-menu';
 
 // FA
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -24,6 +25,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 body {
   background-color: vars.$main-color;
   color: vars.$light-color;
+  overflow-y: scroll;
 }
 
 // Unreasonable and possibly stupid way of doing this.
@@ -37,4 +39,8 @@ ul:has(+ .row) {
   padding: 0;
   list-style: none;
   flex-wrap: wrap;
+}
+
+.logo {
+  display: none;
 }

@@ -7,7 +7,7 @@ Description: This is our index page.
     <div class="preludium" id="start">
         <h2>Kursmoment Nr. 2</h2>
         <p>av Sidr24</p>
-        <p>Klicka för att stänga</p>
+        <p class="close-info">Klicka för att stänga</p>
     </div>
 </a>
 
@@ -25,7 +25,7 @@ Typografin, linjerna och färgerna samspelade. En förlaga lika god som någon.
 Jag adderade en sans-serif (inter som nämndes på föreläsningen) för att få lite variation.
 Sedan lade jag motvilligt in g-klaven i strecket i brist på bättre symboler, förlagan har en cool björn och stjärna.
 Det finns en hel del kvar att utforska gällande typografi. Jag kämpar vidare.
- 
+
 
 <!-- 
 ### Att skapa ordning av kaos.
