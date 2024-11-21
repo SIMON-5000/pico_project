@@ -1,3 +1,9 @@
+---
+Title: PHP
+Description: Our PHP page
+Template: technology
+---
+
 # PHP
 
 PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll. PHP är det mest använda server-side programmeringsspråk på webben med uppåt 80% av alla webbplatser som använder det.
