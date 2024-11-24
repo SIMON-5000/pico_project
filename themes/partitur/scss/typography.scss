@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 // Imports Noto Music display to get acces to the note glyphs, inter for some headers
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Music&display=swap');
 
@@ -29,13 +31,13 @@ p {
 }
 
 a {
-  color: #000;
-  text-decoration: underline 2px;
+  color: $main-color;
+  text-decoration: underline 2px $darken;
 }
 
 a:hover {
   color: unset;
-  text-decoration: underline 3px;
+  text-decoration: underline 2px black;
 }
 
 h2,
@@ -48,12 +50,12 @@ h5 {
 }
 
 li {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 blockquote {
   border: 1px solid #000;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid $brighten;
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
@@ -64,7 +66,7 @@ code {
   padding: 0.05em 0.2em;
   // border: 1px solid #ccc;
   border-radius: 0.2em;
-  background: #f5f5f5;
+  background: $brighten;
   font-family: monospace;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -75,7 +77,7 @@ pre {
   padding: 0 1em;
   border: 2px dashed #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: $brighten;
 }
 
 pre code {

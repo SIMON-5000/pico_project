@@ -43,8 +43,13 @@
 
   a {
     color: $light-color;
-    text-decoration: none;
-  }  
+    text-decoration: underline 2px transparent;
+    transition: text-decoration 0.4s ease-in-out;
+  }
+
+  a:hover {
+    text-decoration: underline 2px $light-color;
+  }
 
   .logo img {
     display: none;

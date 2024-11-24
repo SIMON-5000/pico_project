@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+table {
+  font: 1.2em sans-serif;
+  margin-bottom: 1.96rem;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  border-bottom: 2px solid $main-color;
+}
+
+tr:nth-child(2) {
+  background-color: $brighten;
+}

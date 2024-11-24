@@ -1,13 +1,15 @@
+@use 'variables' as *;
+
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: $brighten;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
-  border: 2px solid #000;
+  border: 2px solid $darken;
 }
 
 pre {
