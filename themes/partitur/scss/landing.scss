@@ -2,13 +2,12 @@
 // @use 'typography' as *;
 
 .preludium {
-  position: absolute;
+  // position: absolute;
   background-color: $main-color;
   color: $light-color;
   left: 0;
-  top: 9rem;
   width: 100%;
-  height: calc(100% - 9rem);
+  height: calc(100vh);
   text-align: center;
 
   h2 {
@@ -16,7 +15,8 @@
     font-size: 2em;
     font-weight: 400;
     letter-spacing: 0.1rem;
-    margin-top: 5rem;
+    margin-top: 0;
+    padding-top: 5rem;
   }
 
   p {
@@ -35,8 +35,14 @@
     left: 50%;
     transform: translate(-50%);
   }
+  
+  a {
+    color: $light-color;
+    text-decoration: none;
+  }
+
 }
 
-.preludium:target {
-  display: none;
-}
+// .preludium:target {
+//   display: none;
+// }

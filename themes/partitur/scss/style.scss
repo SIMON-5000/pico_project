@@ -44,3 +44,10 @@ ul:has(+ .row) {
 .logo {
   display: none;
 }
+
+p {
+  img{
+    display: block;
+    // margin: auto;
+  }
+}
