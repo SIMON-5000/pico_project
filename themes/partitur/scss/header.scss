@@ -19,20 +19,22 @@
 
   h1::after {
     font-family: 'Noto Music', sans-serif;
-    content: '\1D11E';
+    content: '\1D21A';
     /**
     * Unicode Name	Musical Symbol G Clef
     * Unicode Number	U+1D11E
     * CSS Code	\1D11E
+    * U+1D21A
     */
 
-    font-size: calc(100% / 3);
+    // font-size: calc(100% / 3);
     // This (kind of) makes it possible to change the h1 size, and this construction would follow.
     // Not perfect, but a fun experiment non the less!
     background: $main-color;
     position: absolute;
-    transform: translate(-9em, 3.5em);
-    padding: 0.5em 1em;
+    transform: translate(-4em, 1.1em);
+    padding: 0 0.5em;
+    line-height: 0.5;
   }
 
   .title a:hover {

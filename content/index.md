@@ -18,6 +18,7 @@ Nu ska vi se hur det går för Simon.
 
 Jag ville göra något mer ordnat och stramt, kanske tråkigt(?) denna gång.
 Jag bläddrade förbi det här partituret av en slump:
+<!--  renders images in p-tags. not cool! -->
 
 ![Ett partitur för Beethovens 9a](assets/img/partitur.png "Partitur")
 

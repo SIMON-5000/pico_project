@@ -3,15 +3,15 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <main class="main" role="main">
-        <aside class="tech-menu">
-            <nav>
+    <main class="main technology" role="main">
+        <aside class="tech-menu" role="navigation">
             {% for page in pages("technology") %}
                 <a href="{{ page.url }}" class="tech-menu-item">{{ page.title }}</a>
             {% endfor %}
-            </nav>
         </aside>
-        {{ content }}
+        <article>
+            {{ content }}
+        </article>
     </main>
     
     {% include 'incl/footer.twig' %}
