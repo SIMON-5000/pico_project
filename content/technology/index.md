@@ -1,5 +1,5 @@
 ---
-Title: Teknologier
+Title: Technologies
 Description: Om våra teknologier
 Template: technologies
 techs:
