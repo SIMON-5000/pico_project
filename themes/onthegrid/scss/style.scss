@@ -1,1 +1,6 @@
 @use '../../node_modules/normalize.css/normalize';
+@use 'variables' as *;
+@use 'base-rules.scss';
+@use 'typography';
+@use 'technology';
+@use 'about';
