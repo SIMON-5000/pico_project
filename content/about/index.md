@@ -10,16 +10,13 @@ Description: Angående tekniker
 [6]: https://html.spec.whatwg.org/ "HTML"
 [7]: https://sass-lang.com/ "SASS"
 
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" class="tech-logo" alt="Markdown" title="Markdown logo">
-<img src="https://sass-lang.com/assets/img/logos/logo.svg" class="tech-logo" alt="Sass" title="Sass logo">
-<img src="https://avatars.githubusercontent.com/u/7042563?v=4" class="tech-logo" alt="Pico" title="Pico logo">
-<!-- ![Pico](https://avatars.githubusercontent.com/u/7042563?v=4 "Pico logo") -->
-
 ## Tekniker som används:
 
 ### Denna sida är främst skapad med Pico, Markdown och Sass!
 
+<img src="https://avatars.githubusercontent.com/u/7042563?v=4" class="tech-logo" alt="Pico" title="Pico logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" class="tech-logo" alt="Markdown" title="Markdown logo">
+<img src="https://sass-lang.com/assets/img/logos/logo.svg" class="tech-logo" alt="Sass" title="Sass logo">
 
 [Pico][1] är ett så kallat _flat file CMS_, vilket innebär att innehållet organiseras i mappar och filer istället för en databas.
 
