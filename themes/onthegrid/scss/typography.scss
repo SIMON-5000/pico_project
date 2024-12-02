@@ -1,19 +1,89 @@
 @use 'helpers' as *;
 
+// Local fonts:
+// font-weight: 100; 
+// font-weight: 200; thin
+// font-weight: 300; light
+// font-weight: 400; /* normal */
+// font-weight: 500; medium
+// font-weight: 600; semi bold
+// font-weight: 700; /* bold */
+// font-weight: 800; extra bold
+// font-weight: 900; black
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 600;
+  font-style: italic;
+  src: url('../../shared/fonts/argentum/ArgentumSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-ExtraBold.ttf') format('truetype');
+}
+
+
 html {
   font-size: 100%;
 }
 
 body {
   font-family: $font;
+  font-weight: $base-font-weight;
   font-size: $base-font-size;
+  color: $main-text-color;
 }
 
 h1,
 h2,
 h3,
 h4 {
+  // font-family: 'Argentum', 'sans-serif', sans-serif;
+  font-family: 'Argentum', 'Times New Roman', Times, serif;
+  font-weight: $header-font-weight;
   text-align: center;
+}
+
+.title h1,
+.title a {
+  font-size: calc($base-font-size * 4);
+  font-weight: 800;
+  color: $background;
+  paint-order: stroke fill;
+  -webkit-text-stroke-color: $main-text-color;
+  -webkit-text-stroke-width: $space-m;
+  text-decoration: none;
 }
 
 p {
