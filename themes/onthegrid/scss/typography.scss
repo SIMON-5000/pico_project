@@ -1,0 +1,24 @@
+@use 'helpers' as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $font;
+  font-size: $base-font-size;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin-bottom: $base-font-size * $base-line-height;
+  letter-spacing: 0.02em;
+}

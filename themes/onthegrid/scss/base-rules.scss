@@ -1,0 +1,51 @@
+@use 'helpers' as *;
+
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+body {
+  display: grid;
+  // (header, footer = auto; Mmin = 1fr.) + (Min-height = full screen.) = success
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  justify-content: center;
+
+  background-color: $background;
+
+  background-size: 16px 16px;
+  background-image:
+    linear-gradient(to right, #ff00001a 1px, transparent 1px),
+    linear-gradient(to bottom, #ff00001a 1px, transparent 1px);
+}
+
+nav ul{
+  @include flex-center(row);
+}
+
+main {
+  margin: 0;
+  max-width: 64rem;
+  // @include flex-center;
+}
+
+a {
+  display: inline-block;
+  color: $main-text-color;
+}
+
+ul {
+  list-style: none;
+}
+
+code {
+  border: none;
+}
+
+::selection {
+  background-color: $yellow;
+}
+

@@ -1,0 +1,10 @@
+@use 'helpers' as *;
+
+.tech-logo {
+  height: 75px;
+  vertical-align: middle;
+}
+
+ul:has(+ .row) {
+  @include flex-center(row);
+}

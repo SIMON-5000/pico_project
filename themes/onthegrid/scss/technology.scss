@@ -1,0 +1,99 @@
+@use 'helpers' as *;
+
+.technologies {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.tech-header {
+  grid-column: span 3;
+}
+
+.tech-items {
+  padding: $space-m;
+  margin: 5px;
+  transition: all 0.1s;
+  
+  a,
+  a h3 {
+    text-decoration: none;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.tech-items:hover {
+  box-shadow: 4px 5px 3px #00000080;
+  scale: 1.03;
+  transform: translate(3px -3px);
+
+  a,
+  a h3 {
+    color: inherit;
+  }
+}
+
+// Technology
+
+// span for technology links
+.html,
+.javascript,
+.git {
+  grid-column: span 2;
+}
+
+.sqlite {
+  grid-column: span 3;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
+  
+  article {
+    // To allow container to shrink more than its content. Allows scrollbar in <code> to appear instead of overflow.
+    min-width: 0;
+  }
+}
+
+.tech-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 2*0.67rem;
+  height: fit-content;
+
+  a {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    padding: 0.34rem;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    padding: 0.67rem;
+    margin: 5px;
+    transition: all 0.3s;
+  }
+
+  a:hover {
+    box-shadow: 4px 5px 3px #00000030;
+    scale: 1.03;
+    transform: translate(3px -3px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .technologies {
+    display: grid;
+    grid-template-columns: auto;
+
+    .tech-items,
+    .tech-header {
+      grid-column: span 1;
+    }
+  }
+
+  .technology .tech-menu {
+    display: none;
+  }
+
+}

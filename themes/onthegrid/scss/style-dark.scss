@@ -1,0 +1,5 @@
+@use 'helpers' as * with (
+  $background: #333,
+  $main-text-color: #fafafa
+);
+@use 'base-rules';
