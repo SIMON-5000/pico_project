@@ -27,6 +27,13 @@
 
 @font-face {
   font-family: 'Argentum';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../../shared/fonts/argentum/ArgentumSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
   font-weight: 400;
   font-style: normal;
   src: url('../../shared/fonts/argentum/ArgentumSans-Regular.ttf') format('truetype');

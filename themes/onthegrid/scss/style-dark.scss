@@ -1,6 +1,6 @@
 @use 'helpers' as * with (
   $background: #121212,
-  $main-text-color: #f5f3ef,
+  $main-text-color: #efece4,
   $base-font-weight: 100,
   $header-font-weight: 400,
   $hover-color:  #847272
@@ -32,4 +32,8 @@ body {
 .header,
 .main {
   margin-bottom: $base-font-size * $base-line-height;
+}
+
+img {
+  filter: brightness(0.8);
 }
