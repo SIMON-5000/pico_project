@@ -53,9 +53,10 @@
   src: url('../../shared/fonts/argentum/ArgentumSans-ExtraBold.ttf') format('truetype');
 }
 
-
 html {
   font-size: 100%;
+  text-wrap: balance;
+  hyphens: auto;
 }
 
 body {
@@ -91,4 +92,45 @@ p {
   line-height: $base-line-height;
   margin-bottom: $base-font-size * $base-line-height;
   letter-spacing: 0.02em;
+}
+
+
+blockquote {
+  border: 1px solid #000;
+  border-left: 0.5em solid $brighten;
+  font-style: italic;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+code {
+  margin: 0 0.1em;
+  padding: 0.05em 0.2em;
+  border-radius: 0.2em;
+  background: $brighten;
+  font-family: monospace;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+pre {
+  padding: 0 1em;
+  border-radius: 0.3em;
+  background: $brighten;
+  max-width: 90%;
+}
+
+pre code {
+  display: block;
+  margin: 0;
+  padding: 1.1111em 0;
+  border: 0 none;
+  background: transparent;
+  overflow-x: auto;
+  line-height: 1.4;
+}
+
+ol {
+  max-width: 80%;
 }

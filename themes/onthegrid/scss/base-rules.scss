@@ -12,6 +12,7 @@ body {
   // (header, footer = auto; Mmin = 1fr.) + (Min-height = full screen.) = success
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  width: 100%;
   justify-content: center;
 
   background-color: $background;
@@ -22,13 +23,15 @@ body {
     linear-gradient(to bottom, #ff00001a 1px, transparent 1px);
 }
 
-nav ul{
+nav ul {
   @include flex-center(row);
 }
 
 main {
   margin: 0;
   max-width: 64rem;
+  width: 99%;
+  min-width: 0;
   // @include flex-center;
 }
 
@@ -46,7 +49,7 @@ ul {
 }
 
 code {
-  border: none;
+  border: transparent;
 }
 
 ::selection {

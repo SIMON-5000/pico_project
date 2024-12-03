@@ -30,21 +30,22 @@ Resultat
 |Google Search          |Arial 400             |Arial 400       |
 |Margherita Fortuna     |Migra 300 - 500       |DMSans 500      |
 
+## 1177.se
 
 <table class="colors">
     <tr>
-        <th colspan="5">1177.se</th>
+        <th colspan="5">1177s färger</th>
     </tr>
     <tr>
         <td>#C12143</td>
-        <td>#C02243</td>
+        <td>#a00b36</td>
         <td>#FAEEF0</td>
         <td>#396291</td>
         <td>#f1f1f5</td>
     </tr>
     <tr>
         <td style="background-color: #C12143;"></td>
-        <td style="background-color: #C02243;"></td>
+        <td style="background-color: #a00b36;"></td>
         <td style="background-color: #FAEEF0;"></td>
         <td style="background-color: #396291;"></td>
         <td style="background-color: #f1f1f5;"></td>
@@ -62,9 +63,11 @@ De röda färgerna ger en varm och välkomnande känsla, samtidigt som den relat
 
 ---
 
+## Google search
+
 <table class="colors">
     <tr>
-        <th colspan="5">Google search</th>
+        <th colspan="5">Google searchs färger</th>
     </tr>
     <tr>
         <td>#ffffff</td>
@@ -90,9 +93,11 @@ Teckenfärgerna går i en mörkt grå (#1f1f1f), men sökresultatens brödtexter
 
 ---
 
+## Margherita Fortuna
+
 <table class="colors">
     <tr>
-        <th colspan="5">Margherita Fortuna</th>
+        <th colspan="5">Margherita Fortunas färger</th>
     </tr>
     <tr>
         <td>#2b322a</td>

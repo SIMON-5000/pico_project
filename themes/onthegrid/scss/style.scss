@@ -1,6 +1,13 @@
 @use '../../node_modules/normalize.css/normalize';
-@use 'variables' as *;
+@use 'helpers' as *;
 @use 'base-rules.scss';
 @use 'typography';
 @use 'technology';
 @use 'about';
+@use 'responsitivity';
+@use 'footer';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';

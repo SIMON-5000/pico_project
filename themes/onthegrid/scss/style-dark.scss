@@ -9,6 +9,13 @@
 @use 'typography';
 @use 'technology';
 @use 'about';
+@use 'responsitivity';
+@use 'footer';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
 // Turn off background-grid
 body {
@@ -26,4 +33,3 @@ body {
 .main {
   margin-bottom: $base-font-size * $base-line-height;
 }
-

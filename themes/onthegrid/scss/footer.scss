@@ -1,0 +1,23 @@
+@use 'helpers' as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  min-width: 90%;
+  max-width: 100%;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 2rem;
+
+  a {
+    color: $main-text-color;
+    text-decoration: none;
+  }
+
+  .social {
+    font-size: 2rem;
+  }
+}
