@@ -3,12 +3,18 @@
   $main-text-color: #f5f3ef,
   $base-font-weight: 100,
   $header-font-weight: 400,
-  $red:  #893030
+  $hover-color:  #847272
 );
 @use 'base-rules';
 @use 'typography';
 @use 'technology';
 @use 'about';
+
+// Turn off background-grid
+body {
+  background-size: 0%;
+  
+}
 
 .footer,
 .main,
@@ -20,3 +26,4 @@
 .main {
   margin-bottom: $base-font-size * $base-line-height;
 }
+

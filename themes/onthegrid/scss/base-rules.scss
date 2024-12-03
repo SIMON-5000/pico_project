@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  border: 1px solid $red; 
+  border: 1px solid $hover-color; 
 }
 
 ul {
@@ -53,3 +53,8 @@ code {
   background-color: $yellow;
 }
 
+img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
