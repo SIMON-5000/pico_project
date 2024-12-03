@@ -19,6 +19,7 @@ Jag bläddrade förbi det här partituret av en slump:
 <!--  renders images in p-tags. not cool! -->
 
 ![Ett partitur för Beethovens 9a](assets/img/partitur.png "Partitur")
+![Ett partitur för Beethovens 9a](assets/img/part1.png "Partitur")
 
 Typografin, linjerna och färgerna samspelade. En förlaga lika god som någon.
 Jag adderade en sans-serif (inter som nämndes på föreläsningen) för att få lite variation.
