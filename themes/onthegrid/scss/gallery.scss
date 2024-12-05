@@ -1,0 +1,27 @@
+@use 'helpers' as *;
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .gallery-item {
+    @include flex-center();
+    margin: 0;
+  }
+
+}
+
+
+// Märkligt att source renderar en "fysisk" box.
+// Borde vara dolt och bara välja vilken bild som ska visas i img delen...
+source {
+  // border: transparent;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+  

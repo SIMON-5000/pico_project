@@ -4,6 +4,11 @@
   display: none;
 }
 
+.table-container {
+  max-width: 100%;
+  overflow-x: auto  ;
+}
+
 @media (max-width: 767px) {
   .header {
     flex-direction: column;

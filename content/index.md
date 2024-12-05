@@ -5,7 +5,7 @@ Description: This is our index page.
 
 ## KMOM04
 ### Ett koncept som måste testas
-Tänkte på det här innan, att göra som en wireframe, sidan står naken med alla element synliga. Är det snyggt eller ens användbart? Nja, men kanske kan bli. Men jag var tvungen att testa, och det ser ganska intressant ut. Jag måste pilla lite mer innan jag kan avskriva det.
+Tänkte på det här innan, att göra som en wireframe, sidan står naken med alla element synliga. Är det snyggt eller ens användbart? Det kanske kan bli. Men jag var tvungen att testa, och det ser ganska intressant ut! Jag måste pilla lite mer innan jag kan avskriva det.
 
 ### _kmom03: Va? Inget nytt theme denna vecka!?_
 
@@ -17,9 +17,8 @@ Nästa vecka, då kör vi igen!
 Jag ville göra något mer ordnat och stramt, kanske tråkigt(?) denna gång.
 Jag bläddrade förbi det här partituret av en slump:
 <!--  renders images in p-tags. not cool! -->
-
 ![Ett partitur för Beethovens 9a](assets/img/partitur.png "Partitur")
-![Ett partitur för Beethovens 9a](assets/img/part1.png "Partitur")
+![Ett partitur för Beethovens 9a](image/part1.png?w=400 "Partitur")
 
 Typografin, linjerna och färgerna samspelade. En förlaga lika god som någon.
 Jag adderade en sans-serif (inter som nämndes på föreläsningen) för att få lite variation.

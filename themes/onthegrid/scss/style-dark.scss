@@ -1,3 +1,4 @@
+@use '../../node_modules/normalize.css/normalize';
 @use 'helpers' as * with (
   $background: #121212,
   $main-text-color: #efece4,
@@ -11,6 +12,7 @@
 @use 'about';
 @use 'responsitivity';
 @use 'footer';
+@use 'gallery';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/fontawesome';
 @import '../../shared/fontawesome/scss/brands';
