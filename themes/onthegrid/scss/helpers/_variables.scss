@@ -1,6 +1,8 @@
-$base-font-size: 1.4rem;
+$base-font-size: 1.2rem;
 $base-line-height: 1.5;
-$space-m: calc($base-font-size / 2);
+$space-s: calc($base-font-size / 2);
+$space-m: calc($base-font-size * 1);
+$space-l: calc($base-font-size * 2);
 
 $font: 'Argentum', times, serif;
 $base-font-weight: 300 !default;
