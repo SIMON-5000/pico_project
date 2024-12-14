@@ -8,6 +8,7 @@
 @use 'footer';
 @use 'gallery';
 @use 'analysis';
+@use 'mobile-menu';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/fontawesome';
 @import '../../shared/fontawesome/scss/brands';
