@@ -1,0 +1,143 @@
+@use 'helpers' as *;
+
+// Local fonts:
+// font-weight: 100; 
+// font-weight: 200; thin
+// font-weight: 300; light
+// font-weight: 400; /* normal */
+// font-weight: 500; medium
+// font-weight: 600; semi bold
+// font-weight: 700; /* bold */
+// font-weight: 800; extra bold
+// font-weight: 900; black
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../../shared/fonts/argentum/ArgentumSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 600;
+  font-style: italic;
+  src: url('../../shared/fonts/argentum/ArgentumSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argentum';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../../shared/fonts/argentum/ArgentumSans-ExtraBold.ttf') format('truetype');
+}
+
+html {
+  font-size: 100%;
+  text-wrap: balance;
+  hyphens: auto;
+}
+
+body {
+  font-family: $font;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  color: $main-text-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  // font-family: 'Argentum', 'sans-serif', sans-serif;
+  font-family: 'Argentum', sans-serif;
+  font-weight: $header-font-weight;
+  text-align: center;
+  padding: 0px $space-s;
+  line-height: 1.1;
+  margin-bottom: $base-font-size * $base-line-height;
+  margin-top: $space-l;
+}
+
+p {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin-bottom: $base-font-size * $base-line-height;
+  letter-spacing: 0.02em;
+  padding: 0 8px;
+}
+
+
+blockquote {
+  border: 1px solid #000;
+  border-left: 0.5em solid $brighten;
+  font-style: italic;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+code {
+  margin: 0 0.1em;
+  padding: 0.05em 0.2em;
+  border-radius: 0.2em;
+  background: $brighten;
+  font-family: monospace;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+pre {
+  padding: 0 1em;
+  border-radius: 0.3em;
+  background: $brighten;
+  max-width: 90%;
+}
+
+pre code {
+  display: block;
+  margin: 0;
+  padding: 1.1111em 0;
+  border: 0 none;
+  background: transparent;
+  overflow-x: auto;
+  line-height: 1.4;
+}
+
+ol {
+  max-width: 80%;
+}
+
+.main > h2:first-child {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+

@@ -1,0 +1,17 @@
+@mixin flex-center ($direction: column) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin bg ($color: white) {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+@mixin link-border {
+  border: 4px solid #333;
+  border-radius: 8px;
+  box-shadow: 2px 2px #333;
+}

@@ -1,0 +1,50 @@
+@use 'helpers' as *;
+
+.title h1,
+.title a {
+  font-size: calc($base-font-size * 4);
+  font-weight: 800;
+  // color: #ffcd37;
+  // paint-order: stroke fill;
+  // -webkit-text-stroke-color: #d85f06;
+  // -webkit-text-stroke-width: $space-m;
+  text-decoration: none;
+  // color: #ff5c5c;
+  color: $pop-color;
+  // text-shadow: 2px 1px #333;
+  transform: rotate(-1deg);
+}
+
+// .header {
+//   border-bottom: $big-border solid $main-text-color;
+// }
+
+.site-header {
+  width: fit-content;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+
+  ul {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+    @include link-border;
+    font-weight: 600;
+    padding: 3px;
+  }
+
+  a:hover {
+    box-shadow: 0px 0px;
+    transform: translate(2px, 2px);
+    // background-color: $darken;
+  }
+}

@@ -1,0 +1,20 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <main class="main" role="main">
+        {{ dump(url_param) }}
+        {{ dump(url_param('q')) }}
+        {% if url_param ('q') %}
+            <p>The value of 'q' is: {{ url_param('q') }}</p>
+        {% else %}
+            <p>No parameter 'q' found in the URL.</p>
+        {% endif %}
+        {{ content }}
+    </main>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+@use 'helpers' as *;
+
+html {
+  background-color: $main-text-color;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  // border: 1px solid #00000050;
+  // border-radius: 4px;
+  // padding: 8px;
+}
+
+body {
+  display: grid;
+  // (header, footer = auto; Mmin = 1fr.) + (Min-height = full screen.) = success
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  // Justify content får grid items att ändra storlek. Använd margin: 0 auto på item istället.
+  // justify-content: center;
+
+  background-color: $background;
+
+  // background-size: 16px 16px;
+  // background-image:
+  //   linear-gradient(to right, #ff00001a 1px, transparent 1px),
+  //   linear-gradient(to bottom, #ff00001a 1px, transparent 1px);
+  border: $big-border solid $main-text-color;
+  border-radius: 20px;
+}
+
+nav ul {
+  @include flex-center(row);
+}
+.site-header,
+main{
+  margin: 0 auto;
+  max-width: 64rem;
+  width: 100%;
+  min-width: 0;
+  // @include flex-center;
+}
+
+.header,
+.footer {
+  width: 100%
+}
+
+a {
+  display: inline-block;
+  color: $main-text-color;
+  font-weight: 400;
+  text-decoration: underline 2px;
+}
+
+a:hover {
+  // border: 1px solid $pop-color; 
+  text-decoration: underline $pop-color 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+code {
+  border: transparent;
+}
+
+::selection {
+  background-color: $yellow;
+}
+
+img {
+  max-width: 90%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+td {
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}
+
+.bg {
+  @include bg;
+}
+
+details {
+  @include link-border;
+  padding: 0.5em;
+  margin: 0.5em 1em;
+  margin-bottom: $base-font-size * $base-line-height;
+}
+
+summary::marker {
+  color: $pop-color;
+  font-size: 1.3em;
+}
+
+summary:hover {
+  cursor: pointer;
+}

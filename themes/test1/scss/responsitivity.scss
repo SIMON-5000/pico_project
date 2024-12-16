@@ -1,0 +1,53 @@
+@use 'helpers' as *;
+
+.nav-toggle {
+  display: none;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    max-width: 100%;
+
+    h1 {
+      font-size: 10vw;
+    }
+  }
+
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  main {
+    max-width: 100%;
+  }
+
+  ul:has(+ .row) {
+    flex-direction: column;
+  }
+
+  table {
+    font-size: 1rem;
+  }
+  
+  .title {
+    text-align: center;
+  }
+}

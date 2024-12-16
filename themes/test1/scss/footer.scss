@@ -1,0 +1,21 @@
+@use 'helpers' as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+
+  a {
+    color: $pop-color;
+    text-decoration: none;
+    // -webkit-text-stroke: 1px $main-text-color;
+    // paint-order: fill stroke;
+  }
+
+  .social {
+    font-size: 2rem;
+  }
+}

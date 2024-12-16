@@ -8,14 +8,14 @@
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass onthegrid/scss/style.scss:onthegrid/css/style.css onthegrid/scss/style-dark.scss:onthegrid/css/style-dark.css --no-source-map --watch",
-    "watch-min": "sass onthegrid/scss/style.scss:onthegrid/css/style.min.css onthegrid/scss/style-dark.scss:onthegrid/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "watch": "sass test1/scss/style.scss:test1/css/style.css test1/scss/style-dark.scss:test1/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass test1/scss/style.scss:test1/css/style.min.css test1/scss/style-dark.scss:test1/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
-    "style-dark": "sass onthegrid/scss/style-dark.scss onthegrid/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass onthegrid/scss/style-dark.scss onthegrid/css/style-dark.min.css --no-source-map --style compressed",
-    "style-light": "sass onthegrid/scss/style.scss onthegrid/css/style.css --no-source-map",
-    "style-light-min": "sass onthegrid/scss/style.scss onthegrid/css/style.min.css --no-source-map --style compressed"
+    "style-dark": "sass test1/scss/style-dark.scss test1/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass test1/scss/style-dark.scss test1/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass test1/scss/style.scss test1/css/style.css --no-source-map",
+    "style-light-min": "sass test1/scss/style.scss test1/css/style.min.css --no-source-map --style compressed"
 },
   "keywords": [],
   "author": "",

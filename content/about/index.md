@@ -10,7 +10,7 @@ Description: Angående tekniker
 [6]: https://html.spec.whatwg.org/ "HTML"
 [7]: https://sass-lang.com/ "SASS"
 
-## Tekniker som används:
+## Tekniker som används
 
 ### Denna sida är främst skapad med Pico, Markdown och Sass!
 

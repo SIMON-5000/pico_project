@@ -6,7 +6,7 @@ Description: This is our gallery page.
 ## Galleri
 
 <div class="gallery" title="Open image in a new window" target="_blank">
-    <a href="image/gallery/1,jpg" >
+    <a href="image/gallery/1.jpg" >
         <picture class="gallery-item">
             <source media="(min-width: 768px)" srcset="image/gallery/1.jpg?w=350&h=350&crop-to-fit">
             <source media="(min-width: 376px)" srcset="image/gallery/1.jpg?w=400&h=400&crop-to-fit">
